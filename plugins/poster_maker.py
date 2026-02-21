@@ -1,36 +1,3 @@
-"""
-/poster {seriesname} — Admins & Auth Users only.
-
-Navigation is fully dynamic — every button edits the SAME message.
-No delete + resend ever (except Done which cleans up).
-
-Button flow:
-  Main view:
-    [🖼 Change Image]  [🔤 Change Logo]
-    [📍 Change L Position]  [📏 Change L Size]
-    [✅ Done]
-
-  Change Image view:  (numbered grid, 5 per row)
-    [1][2][3][4][5]
-    [6][7][8][9][10]  ...etc
-    [« Back]
-
-  Change Logo view:  same numbered grid
-    [1][2][3][4][5]
-    ...
-    [« Back]
-
-  Position view:  3×3 grid
-    [↖][↑][↗]
-    [←][⊙][→]
-    [↙][↓][↘]
-    [« Back]
-
-  Size view:
-    [Small][Medium][Large][Extra Large]
-    [« Back]
-"""
-
 import os
 import io
 import uuid

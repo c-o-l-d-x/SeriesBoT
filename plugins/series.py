@@ -688,7 +688,7 @@ async def recent_command(client: Client, message: Message):
 # USER ACCESS - Text-based Series Search
 # ============================================================================
 
-@Client.on_message(filters.text & filters.private & ~filters.command(["start", "help", "newseries", "allseries", "deleteseries", "deleteall", "editseries", "recent"]) & ~filters.forwarded & ~filters.regex(r't\.me/'), group=0)
+@Client.on_message(filters.text & filters.private & ~filters.command(["start", "help", "newseries", "allseries", "deleteseries", "deleteall", "editseries", "poster", "recent"]) & ~filters.forwarded & ~filters.regex(r't\.me/'), group=0)
 async def user_series_search(client: Client, message: Message):
     """Handle user text messages to search for series - WITH SPELL CHECKING AND USER TRACKING"""
     user_id = message.from_user.id

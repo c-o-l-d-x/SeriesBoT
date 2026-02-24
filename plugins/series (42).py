@@ -309,6 +309,10 @@ async def help_command(client: Client, message: Message):
 /editseries - Edit an existing series
 /deleteseries - Delete a specific series
 
+<b>Add Poster</b>
+/poster - For adding customized poster
+Usage: /poster <code>seriesname</code>
+
 <b>Filter Management:</b>
 /filter or /add - Add a filter (in groups)
 /filters or /viewfilters - View all filters

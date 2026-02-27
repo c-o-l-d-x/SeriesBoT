@@ -163,7 +163,7 @@ def _compact_parts(parts: list) -> str:
 
 def _format_channel_message(entries: list) -> str:
     """Build the full text for the channel message (image 2 style)."""
-    lines = ["⚡ <b>Recently Added Series</b> ⚡\n"]
+    lines = ["<pre><b>⚡ Recently Added ⚡</b></pre>\n"]
     for idx, entry in enumerate(entries, 1):
         title = entry.get('title', 'Unknown')
         info_str = entry.get('info_str', '')

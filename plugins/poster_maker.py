@@ -7,8 +7,7 @@ import asyncio
 import requests
 from PIL import Image, ImageDraw
 
-from pyrogram import Client, filters
-from pyrogram.handlers.handler import StopPropagation
+from pyrogram import Client, filters, StopPropagation
 from pyrogram.types import (
     InlineKeyboardMarkup, InlineKeyboardButton,
     CallbackQuery, Message, InputMediaPhoto,

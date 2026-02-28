@@ -1,15 +1,3 @@
-"""
-Recent List Manager
-Handles building, sending, and editing the recently-added series list in a channel.
-
-Format (image 2 style):
-  1. Shoresy S01E01,E02
-  2. Locke & Key S02E02
-  3. How I Met Your Father S01
-  4. Alice in Borderland S01E01-E05
-  5. Animal Control S01,S02E01
-"""
-
 import logging
 from pyrogram import Client
 from pyrogram.errors import MessageIdInvalid, MessageNotModified

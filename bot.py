@@ -110,6 +110,12 @@ class Bot(Client):
             except Exception as e:
                 logging.warning(f"Cannot reach admin {admin}: {e}")
     
+    app = web.AppRunner(await web_server())
+    await app.setup()
+    bind_address = "0.0.0.0"
+    await web.TCPSite(app, bind_address, PORT).start()
+    logging.info(f"✅ Web server started on {bind_address}:{PORT}")
+    
     async def stop(self, *args):
         await super().stop()
         logging.info("Bot stopped")

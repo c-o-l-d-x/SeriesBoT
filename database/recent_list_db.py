@@ -1,8 +1,3 @@
-"""
-Recent List Database Module
-Manages the persistent recent series list (entries + channel message ID).
-"""
-
 from motor.motor_asyncio import AsyncIOMotorClient
 from info import DATABASE_URI, DATABASE_NAME
 import logging

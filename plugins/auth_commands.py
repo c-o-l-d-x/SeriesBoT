@@ -1,13 +1,3 @@
-"""
-Auth User Management Commands Plugin
-New commands for SeriesBot:
-- /restart - Restart bot
-- /add_auth - Add auth user
-- /del_auth - Delete auth user  
-- /authusers - View all auth users
-- /lock - Show command permissions
-"""
-
 import os
 import sys
 import time

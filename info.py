@@ -4,11 +4,11 @@ from os import environ
 # Bot Information
 API_ID = int(environ.get("API_ID", "20400973"))
 API_HASH = environ.get("API_HASH", "047838cb76d54bc445e155a7cab44664")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7714522267:AAEPlHd4xeuwd8kMvQyinx4MZMY2KYFZgmA")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8039661078:AAF7Y7FRGJe9_rZDJvC0RjWZmHDKUpOYkFw")
 
 # Database Information
-DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Cold:Cold@cluster0.rhycyij.mongodb.net/?appName=Cluster0")
-DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
+DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://amalabraham989:seriesfactory@sfactory.a7gq1.mongodb.net/?retryWrites=true&w=majority&appName=sfactory")
+DATABASE_NAME = environ.get("DATABASE_NAME", "sfactory")
 
 # API Keys for Metadata
 TMDB_API_KEY = environ.get("TMDB_API_KEY", "8c18c4bde8c3c8e1c1c6236d29af7dd7")

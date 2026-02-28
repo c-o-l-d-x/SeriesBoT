@@ -43,6 +43,7 @@ CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<code>{file_name}</cod
 
 PROTECT_CONTENT = environ.get("PROTECT_CONTENT", "False") == "True"
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "0"))
+PORT = environ.get('PORT', "8080")
 
 # Variables for old plugins (to prevent import errors)
 AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "0")

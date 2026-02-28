@@ -1,8 +1,3 @@
-"""
-Update Channel Module
-Manages automatic posting and updating of series information to an update channel.
-"""
-
 import re
 import logging
 import asyncio
